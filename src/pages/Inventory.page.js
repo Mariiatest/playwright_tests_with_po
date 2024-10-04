@@ -6,6 +6,7 @@ export class InventoryPage extends BaseSwagLabPage {
     headerTitle = this.page.locator('.title');
 
     inventoryItems = this.page.locator('.inventory_item');
+    sortContainer = this.page.locator('[data-test="product-sort-container"]');
 
     addItemToCartButton = this.page.locator('[id^="add-to-cart"]');
 
