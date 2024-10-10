@@ -1,5 +1,5 @@
 export class BasePage {
-    url = '';
+    url = 'https://www.saucedemo.com/';
 
     /**
      * @param {import("playwright-core").Page} page
